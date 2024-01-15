@@ -1,0 +1,42 @@
+.letsWork {
+  background-color: #003072;
+   max-width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .top {
+      font-size: 38px;
+      line-height: 57px;
+      color: #ffffff;
+      text-align: center;
+    }
+    .main {
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+      width: 700px;
+      text-align: center;
+    }
+    .btn {
+      background-color: #316ec2;
+      border: 2px solid #316ec2;
+      width: 241px;
+      height: 60px;
+      font-size: 18px;
+      color: #ffffff;
+      cursor: pointer;
+      &:hover{
+        background-color: #316ef2;
+        transition: 300ms;
+      }
+
+    }
+  }
+}

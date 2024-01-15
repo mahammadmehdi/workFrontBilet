@@ -1,0 +1,65 @@
+.insightHelps {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  margin-bottom: 3%;
+  .insightHelpsCards {
+    display: flex;
+    max-width: 1320px;
+    .about {
+      background-color: #003072;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 660px;
+      height: 500px;
+      gap: 30px;
+      padding: 3%;
+      .head {
+        font-size: 38px;
+        letter-spacing: -2px;
+        line-height: 46px;
+        width: 416px;
+        color: #ffffff;
+      }
+      .text {
+        width: 416px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+      }
+      .btn {
+        background-color: transparent;
+        border: 2px solid white;
+        width: 155px;
+        height: 49px;
+        font-size: 17px;
+        color: white;
+        line-height: 26px;
+        cursor: pointer;
+        &:hover {
+          background-color: #316ec2;
+          border: 2px solid #316ec2;
+          transition: 300ms;
+        }
+      }
+    }
+    .image {
+      max-width: 660px;
+      height: 500px;
+    }
+  }
+}
+@media screen and (max-width: 1240px) {
+  .insightHelpsCards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 780px) {
+    .insightHelpsCards{
+        max-width: 400px !important;
+    }
+  }

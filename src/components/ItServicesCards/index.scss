@@ -1,0 +1,24 @@
+.itServicesCards{
+    width: 306px;
+    height: 250px;
+    background-color: #f3f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    &:hover{
+        background-color: #ffffff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: 300ms;
+    }
+    .icon{
+font-size: 50px;
+color: #003072;
+    }
+    .title{
+font-size: 20px;
+color: #003072;
+    }
+}
